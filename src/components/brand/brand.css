@@ -1,0 +1,30 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* background: var(--color-footer); */
+}
+
+.social img {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+}
+.social img:hover {
+  background-color: var(--color-bg);
+  cursor: pointer;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+/* @media screen and (max-width: 490px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .social img {
+    margin: 0.7rem;
+    padding: 0;
+  }
+} */
