@@ -26,7 +26,7 @@ export default function Header() {
         </div>
       </div>
       <div className="gpt3__header-image">
-        <img src={ai} alt="AI Picture" />
+        <img src={ai} alt="AI" />
       </div>
     </div>
   );
